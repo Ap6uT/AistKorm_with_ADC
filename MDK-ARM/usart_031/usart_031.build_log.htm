@@ -1,0 +1,102 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.24.2.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Alexander Grishin, HC limited, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.24.1
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 3 (build 300)
+Assembler:       Armasm.exe V5.06 update 3 (build 300)
+Linker/Locator:  ArmLink.exe V5.06 update 3 (build 300)
+Library Manager: ArmAr.exe V5.06 update 3 (build 300)
+Hex Converter:   FromElf.exe V5.06 update 3 (build 300)
+CPU DLL:         SARMCM3.DLL V5.24.1
+Dialog DLL:      DARMCM1.DLL V1.18.0.0
+Target DLL:      UL2CM3.DLL V1.160.3.0
+Dialog DLL:      TARMCM1.DLL V1.13.0.0
+ 
+<h2>Project:</h2>
+C:\Keil_v5\workGit\AistKorm\MDK-ARM\usart_031.uvprojx
+Project File Date:  06/03/2020
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 3 (build 300)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'usart_031'
+assembling startup_stm32l031xx.s...
+compiling stm32l0xx_it.c...
+compiling stm32l0xx_hal_iwdg.c...
+compiling stm32l0xx_hal_msp.c...
+compiling stm32l0xx_hal_adc_ex.c...
+compiling stm32l0xx_hal_adc.c...
+compiling stm32l0xx_hal_rtc.c...
+compiling stm32l0xx_hal_tim_ex.c...
+compiling stm32l0xx_hal_rtc_ex.c...
+compiling stm32l0xx_hal_uart_ex.c...
+compiling stm32l0xx_hal_spi.c...
+compiling main.c...
+../Src/main.c(1020): warning:  #223-D: function "strlen" declared implicitly
+  	p1=strlen(l1);
+../Src/main.c(1040): warning:  #223-D: function "strlen" declared implicitly
+  	p1=strlen(l1);
+../Src/main.c(1070): warning:  #223-D: function "strlen" declared implicitly
+  	p1=strlen(l1);
+../Src/main.c(1281): warning:  #177-D: variable "GPIO_InitStructure" was declared but never referenced
+    GPIO_InitTypeDef GPIO_InitStructure;
+../Src/main.c(3128): warning:  #177-D: variable "dt" was declared but never referenced
+  		uint8_t dt=0;
+../Src/main.c(1447): warning:  #177-D: variable "a" was declared but never referenced
+  	uint8_t a[5]={1,2,3,4,5};
+../Src/main.c(1279): warning:  #177-D: function "SystemPower_Config2" was declared but never referenced
+  static void SystemPower_Config2(void)
+../Src/main.c: 7 warnings, 0 errors
+compiling stm32l0xx_hal_tim.c...
+compiling stm32l0xx_hal_uart.c...
+compiling stm32l0xx_hal.c...
+compiling stm32l0xx_hal_i2c_ex.c...
+compiling stm32l0xx_hal_rcc_ex.c...
+compiling stm32l0xx_hal_rcc.c...
+compiling stm32l0xx_hal_flash_ramfunc.c...
+compiling stm32l0xx_hal_flash.c...
+compiling stm32l0xx_hal_i2c.c...
+compiling stm32l0xx_hal_flash_ex.c...
+compiling stm32l0xx_hal_gpio.c...
+compiling stm32l0xx_hal_pwr_ex.c...
+compiling stm32l0xx_hal_pwr.c...
+compiling stm32l0xx_hal_dma.c...
+compiling stm32l0xx_hal_cortex.c...
+compiling system_stm32l0xx.c...
+linking...
+Program Size: Code=21772 RO-data=2460 RW-data=128 ZI-data=1992  
+FromELF: creating hex file...
+"usart_031\usart_031.axf" - 0 Error(s), 7 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.5.0.pack
+                ARM.CMSIS.4.5.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 4.3.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32L0xx_DFP.1.5.0.pack
+                Keil.STM32L0xx_DFP.1.5.0
+                STMicroelectronics STM32L0 Series Device Support and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_usart_031
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.5.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:4.3.0
+Build Time Elapsed:  00:00:07
+</pre>
+</body>
+</html>
